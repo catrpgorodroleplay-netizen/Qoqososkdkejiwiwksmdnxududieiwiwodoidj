@@ -1,12 +1,93 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
+  "name": "RedMessenger",
+  "short_name": "RedMsg",
+  "description": "Быстрый и безопасный мессенджер",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "name": "catrpgorodroleplay-netizen.github",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "catrpgorodroleplay-netizen.github",
-  "start_url": "/",
-  "theme_color": "#ffffff",
-  "id": "Catuuujsisidjejei"
+  "background_color": "#dc3545",
+  "theme_color": "#dc3545",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/color/48/000000/chat-message.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://img.icons8.com/color/72/000000/chat-message.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://img.icons8.com/color/96/000000/chat-message.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://img.icons8.com/color/144/000000/chat-message.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://img.icons8.com/color/192/000000/chat-message.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://img.icons8.com/color/512/000000/chat-message.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["social", "communication", "productivity"],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+      "sizes": "600x338",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "RedMessenger Chat Interface"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Новый чат",
+      "short_name": "Чат",
+      "description": "Начать новый разговор",
+      "url": "./?newchat",
+      "icons": [
+        {
+          "src": "https://img.icons8.com/color/96/000000/add-message.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Контакты",
+      "short_name": "Контакты",
+      "description": "Список контактов",
+      "url": "./?contacts",
+      "icons": [
+        {
+          "src": "https://img.icons8.com/color/96/000000/contacts.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "protocol_handlers": [
+    {
+      "protocol": "web+redmsg",
+      "url": "./?uri=%s"
+    }
+  ]
 }
